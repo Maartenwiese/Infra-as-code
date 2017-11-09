@@ -1,0 +1,30 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "existingVNETLocation": {
+            "value": "West Europe"
+        },
+        "vmName": {
+            "value": "EduVM"
+        },
+        "vmSize": {
+            "value": "Standard_A1"
+        },
+        "adminUsername": {
+            "value": "maartenw"
+        },
+        "sshKeyData": {
+            "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDUTmPVnrI6FNLPc9FYQZ0lRU1SlL1ukjMUbwHv/UWF/xjOR4h1Ma12NbUE8zEslYSQO2F924bq5V9Xhq3s8aL8mj+KPo3E8cAarpZWx04pSH6w4l0AX23T0dGUfmvjM9vno3OLY8RFdBEFs4zdZyufidR5SyNOhx3471PsLPIXbAnBeNP6SImZ2U03IaY/8eIUQaQ9pttG4zZfCiRPAyjojOFZ63otNOXTtC7QCOFH3k7ckNm0rLGjIT7KbbY7q8d/SvZOUmTgBh0JIrD2xpwyhcXEel0y0InD0uRhTNC3Es7h1f6ga/z9l+CXHs2C5lSpzJw/WcvgvIsnoTfV4z6J maartenw@DESKTOP-V5J4DA0"
+        },
+        "existingVirtualNetworkName": {
+            "value": "Vnet1"
+        },
+        "existingVirtualNetworkResourceGroup": {
+            "value": "VSTS-Network"
+        },
+        "existingSubnetName": {
+            "value": "Subnet1"
+        }
+    }
+}
